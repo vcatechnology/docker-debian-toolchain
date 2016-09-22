@@ -49,6 +49,7 @@ RUN apt-get install -y \
   liborc-0.4-dev \
   libgstreamer1.0-dev \
   gstreamer1.0-tools \
+  libgstreamer-plugins-base1.0-dev \
   libgstreamer-plugins-bad1.0-dev \
   gstreamer1.0-plugins-ugly \
   gstreamer1.0-libav \
@@ -74,10 +75,13 @@ RUN apt-get install -y \
   libgcrypt11-dev \
   libasound2-dev \
   alsa-utils \
-  libnl-3-dev \  
+  libnl-3-dev \
+  libnl-cli-3-dev \
   libpam0g-dev \
   libndp-dev \
   nodejs-legacy \
   npm \
   libnspr4-dev \
-  nasm
+  nasm \
+  libgudev-1.0-dev
+  
