@@ -2,7 +2,8 @@ FROM vcatechnology/debian-ci:latest
 MAINTAINER VCA Technology <developers@vcatechnology.com>
 
 # Install useful packages
-RUN apt-get install -y \
+RUN sudo apt-get install -y --fix-missing \
+  python-pip \
   gcc \
   g++ \
   libtool-bin \
@@ -84,4 +85,5 @@ RUN apt-get install -y \
   libnspr4-dev \
   nasm \
   libgudev-1.0-dev
-  
+ 
+RUN sudo pip install pystache requests pytz
