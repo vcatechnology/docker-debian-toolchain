@@ -84,6 +84,7 @@ RUN sudo apt-get install -y \
   npm \
   libnspr4-dev \
   nasm \
-  libgudev-1.0-dev
- 
-RUN sudo pip install pystache requests pytz
+  libgudev-1.0-dev \
+  python-pystache \
+  python-requests \
+  python-tz
