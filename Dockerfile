@@ -85,6 +85,7 @@ RUN sudo apt-get install -y \
   libnspr4-dev \
   nasm \
   libgudev-1.0-dev \
+  bison \
   python-pystache \
   python-requests \
   python-tz
