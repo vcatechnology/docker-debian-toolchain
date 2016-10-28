@@ -86,6 +86,7 @@ RUN sudo apt-get install -y \
   nasm \
   libgudev-1.0-dev \
   bison \
+  flex \
   python-pystache \
   python-requests \
   python-tz
