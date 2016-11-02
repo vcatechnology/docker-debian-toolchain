@@ -90,3 +90,5 @@ RUN sudo apt-get install -y \
   python-pystache \
   python-requests \
   python-tz
+
+RUN sudo pip install cpplint
