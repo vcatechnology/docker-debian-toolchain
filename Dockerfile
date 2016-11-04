@@ -90,6 +90,8 @@ RUN sudo apt-get install -y \
   python-pystache \
   python-requests \
   python-tz \
-  llvm
+  llvm \
+  libbz2-dev \
+  unrar-free
 
 RUN sudo pip install cpplint
