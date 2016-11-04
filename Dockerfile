@@ -89,6 +89,7 @@ RUN sudo apt-get install -y \
   flex \
   python-pystache \
   python-requests \
-  python-tz
+  python-tz \
+  llvm
 
 RUN sudo pip install cpplint
