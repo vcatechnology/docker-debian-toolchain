@@ -91,6 +91,7 @@ RUN sudo apt-get install -y \
   python-requests \
   python-tz \
   llvm \
+  llvm-dev \
   libbz2-dev \
   unrar-free
 
