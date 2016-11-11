@@ -2,7 +2,7 @@ FROM vcatechnology/debian-ci:latest
 MAINTAINER VCA Technology <developers@vcatechnology.com>
 
 # Install useful packages
-RUN sudo apt-get install -y \
+RUN vca-install-package \
   python-pip \
   gcc \
   g++ \
