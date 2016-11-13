@@ -1,4 +1,4 @@
-FROM vcatechnology/debian-ci:latest
+FROM vcatechnology/debian-ci
 MAINTAINER VCA Technology <developers@vcatechnology.com>
 
 # Build-time metadata as defined at http://label-schema.org
