@@ -111,4 +111,4 @@ RUN sudo vca-install-package \
   libbz2-dev \
   unrar-free
 
-RUN sudo pip install cpplint
+RUN pip install --user cpplint sseclient
