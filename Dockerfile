@@ -109,6 +109,7 @@ RUN sudo vca-install-package \
   llvm \
   llvm-dev \
   libbz2-dev \
-  unrar-free
+  unrar-free \
+  python-coverage
 
-RUN pip install --user cpplint sseclient
+RUN pip install --user cpplint sseclient backports.functools_lru_cache
