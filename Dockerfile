@@ -108,9 +108,6 @@ RUN sudo vca-install-package \
   pandoc \
   pkg-config \
   protobuf-compiler \
-  python-pip \
-  python-requests \
-  python-tz \
   qemu \
   realpath \
   stress \
@@ -126,4 +123,8 @@ RUN sudo vca-install-package \
 RUN curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - \
  && sudo vca-install-package nodejs-legacy
 
-RUN pip install --user cpplint sseclient backports.functools_lru_cache coverage pystache
+# Install python packages
+RUN curl -sO https://bootstrap.pypa.io/get-pip.py \
+ && sudo python get-pip.py \
+ && rm get-pip.py \
+ && pip install --user coverage requests pytz cpplint sseclient backports.functools_lru_cache pystache
