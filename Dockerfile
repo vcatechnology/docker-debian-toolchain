@@ -19,97 +19,97 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 
 # Install useful packages
 RUN sudo vca-install-package \
-  python-pip \
-  gcc \
-  g++ \
-  libtool-bin \
-  realpath \
-  pkg-config \
-  make \
-  debhelper \
-  lintian \
-  p7zip-full \
-  doxygen \
+  alsa-utils \
   automake \
-  graphviz \
-  mscgen \
+  bison \
   check \
-  valgrind \
-  cppcheck \
-  libcppunit-dev \
-  libpcre3-dev \
-  zlib1g-dev \
-  libprotobuf-dev \
-  protobuf-compiler \
-  pandoc \
-  libqt4-dev \
   cmake \
-  libpng12-dev \
-  libeigen3-dev \
-  yasm \
-  libopencv-dev \
-  libicu-dev \
-  libboost-all-dev \
-  libjansson-dev \
-  libssl-dev \
-  libntlm0-dev \
-  libtinyxml-dev \
-  libffi-dev \
-  xzdec \
-  libxml2-dev \
-  libsqlite3-dev \
-  intltool \
-  libsoup2.4-dev \
-  libgmp-dev \
-  nettle-dev \
-  libx264-dev \
-  liborc-0.4-dev \
-  libgstreamer1.0-dev \
-  gstreamer1.0-tools \
-  libgstreamer-plugins-base1.0-dev \
-  libgstreamer-plugins-bad1.0-dev \
-  gstreamer1.0-plugins-ugly \
-  gstreamer1.0-libav \
-  libsigc++-2.0-dev \
-  libidn11-dev \
-  libtasn1-6-dev \
-  libgnutls28-dev \
-  libcurl4-gnutls-dev \
-  libattr1-dev \
-  libpam0g-dev \
-  libcap-dev \
-  libmount-dev \
+  cppcheck \
+  debhelper \
+  dialog \
+  doxygen \
   eject \
-  libsystemd-dev \
-  libudev-dev \
+  flex \
+  g++ \
+  gcc \
+  graphviz \
+  gstreamer1.0-libav \
+  gstreamer1.0-plugins-ugly \
+  gstreamer1.0-tools \
+  intltool \
+  libasound2-dev \
+  libattr1-dev \
+  libboost-all-dev \
+  libbz2-dev \
+  libcap-dev \
+  libcppunit-dev \
+  libcurl4-gnutls-dev \
   libdbus-1-dev \
+  libeigen3-dev \
+  libffi-dev \
+  libgcrypt11-dev \
+  libgmp-dev \
+  libgnutls28-dev \
+  libgpg-error-dev \
+  libgstreamer-plugins-bad1.0-dev \
+  libgstreamer-plugins-base1.0-dev \
+  libgstreamer1.0-dev \
+  libgudev-1.0-dev \
+  libicu-dev \
+  libidn11-dev \
+  libjansson-dev \
+  libmount-dev \
   libncurses5-dev \
   libncursesw5-dev \
-  ncurses-term \
-  dialog \
-  libpopt-dev \
-  libgpg-error-dev \
-  libgcrypt11-dev \
-  libasound2-dev \
-  alsa-utils \
+  libndp-dev \
   libnl-3-dev \
   libnl-cli-3-dev \
+  libnspr4-dev \
+  libntlm0-dev \
+  libopencv-dev \
+  liborc-0.4-dev \
   libpam0g-dev \
-  libndp-dev \
+  libpam0g-dev \
+  libpcre3-dev \
+  libpng12-dev \
+  libpopt-dev \
+  libprotobuf-dev \
+  libqt4-dev \
+  libsigc++-2.0-dev \
+  libsoup2.4-dev \
+  libsqlite3-dev \
+  libssl-dev \
+  libsystemd-dev \
+  libtasn1-6-dev \
+  libtinyxml-dev \
+  libtool-bin \
+  libudev-dev \
+  libx264-dev \
+  libxml2-dev \
+  lintian \
+  llvm \
+  llvm-dev \
+  make \
+  mscgen \
+  nasm \
+  ncurses-term \
+  nettle-dev \
   nodejs-legacy \
   npm \
-  libnspr4-dev \
-  nasm \
-  libgudev-1.0-dev \
-  bison \
-  flex \
+  p7zip-full \
+  pandoc \
+  pkg-config \
+  protobuf-compiler \
+  python-coverage \
+  python-pip \
   python-pystache \
   python-requests \
   python-tz \
-  llvm \
-  llvm-dev \
-  libbz2-dev \
+  realpath \
   unrar-free \
-  python-coverage
+  valgrind \
+  xzdec \
+  yasm \
+  zlib1g-dev
 
 RUN pip install --user cpplint sseclient backports.functools_lru_cache
