@@ -60,7 +60,6 @@ RUN sudo vca-install-package \
   libgmp-dev \
   libgnutls28-dev \
   libgpg-error-dev \
-  libgsoap-dev \
   libgudev-1.0-dev \
   libicu-dev \
   libidn11-dev \
