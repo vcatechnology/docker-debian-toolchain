@@ -39,12 +39,6 @@ RUN sudo vca-install-package \
   gnu-efi \
   graphviz \
   gsoap \
-  gstreamer1.0-alsa \
-  gstreamer1.0-libav \
-  gstreamer1.0-plugins-bad \
-  gstreamer1.0-plugins-good \
-  gstreamer1.0-plugins-ugly \
-  gstreamer1.0-tools \
   intltool \
   libaa-bin \
   libaa1-dev \
@@ -66,9 +60,6 @@ RUN sudo vca-install-package \
   libgmp-dev \
   libgnutls28-dev \
   libgpg-error-dev \
-  libgstreamer-plugins-bad1.0-dev \
-  libgstreamer-plugins-base1.0-dev \
-  libgstreamer1.0-dev \
   libgsoap-dev \
   libgudev-1.0-dev \
   libicu-dev \
