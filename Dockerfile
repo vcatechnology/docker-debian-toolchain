@@ -90,7 +90,7 @@ RUN sudo vca-install-package \
   libssl-dev \
   libsubunit-dev \
   libsystemd-daemon-dev \
-  libtasn1-6-dev \
+  libtasn1-3-dev \
   libtinyxml-dev \
   libtool \
   libusb-1.0-0-dev \
