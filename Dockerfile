@@ -58,7 +58,7 @@ RUN sudo vca-install-package \
   libffi-dev \
   libgcrypt11-dev \
   libgmp-dev \
-  libgnutls28-dev \
+  libgnutls-dev \
   libgpg-error-dev \
   libgudev-1.0-dev \
   libicu-dev \
