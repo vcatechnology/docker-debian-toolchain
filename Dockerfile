@@ -104,9 +104,6 @@ RUN sudo vca-install-package \
   nasm \
   ncurses-term \
   nettle-dev \
-  nodejs \
-  nodejs-legacy \
-  npm \
   p7zip-full \
   pandoc \
   pkg-config \
@@ -124,5 +121,9 @@ RUN sudo vca-install-package \
   xzdec \
   yasm \
   zlib1g-dev
+
+# Install node from source
+RUN curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - \
+ && sudo vca-install-package nodejs-legacy
 
 RUN pip install --user cpplint sseclient backports.functools_lru_cache coverage pystache
