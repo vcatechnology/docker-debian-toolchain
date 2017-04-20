@@ -93,7 +93,7 @@ RUN sudo vca-install-package \
   libsystemd-dev \
   libtasn1-6-dev \
   libtinyxml-dev \
-  libtool-bin \
+  libtool \
   libusb-1.0-0-dev \
   libudev-dev \
   libx264-dev \
