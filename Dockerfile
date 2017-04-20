@@ -21,6 +21,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 RUN sudo vca-install-package \
   alsa-utils \
   automake \
+  bc \
   bison \
   check \
   cmake \
@@ -30,18 +31,29 @@ RUN sudo vca-install-package \
   doxygen \
   eject \
   flex \
+  gawk \
+  gdisk \
   g++ \
   gcc \
+  gperf \
+  gnu-efi \
   graphviz \
+  gsoap \
+  gstreamer1.0-alsa \
   gstreamer1.0-libav \
+  gstreamer1.0-plugins-bad \
+  gstreamer1.0-plugins-good \
   gstreamer1.0-plugins-ugly \
   gstreamer1.0-tools \
   intltool \
+  libaa-bin \
+  libaa1-dev \
   libasound2-dev \
   libattr1-dev \
   libboost-all-dev \
   libbz2-dev \
   libcap-dev \
+  libcap-ng-dev \
   libcppunit-dev \
   libcurl4-gnutls-dev \
   libdbus-1-dev \
@@ -54,11 +66,15 @@ RUN sudo vca-install-package \
   libgstreamer-plugins-bad1.0-dev \
   libgstreamer-plugins-base1.0-dev \
   libgstreamer1.0-dev \
+  libgsoap-dev \
   libgudev-1.0-dev \
   libicu-dev \
   libidn11-dev \
+  libisl-dev \
   libjansson-dev \
   libmount-dev \
+  libmpc-dev \
+  libmpfr-dev \
   libncurses5-dev \
   libncursesw5-dev \
   libndp-dev \
@@ -69,7 +85,7 @@ RUN sudo vca-install-package \
   libopencv-dev \
   liborc-0.4-dev \
   libpam0g-dev \
-  libpam0g-dev \
+  libpciaccess-dev \
   libpcre3-dev \
   libpng12-dev \
   libpopt-dev \
@@ -83,6 +99,7 @@ RUN sudo vca-install-package \
   libtasn1-6-dev \
   libtinyxml-dev \
   libtool-bin \
+  libusb-1.0-0-dev \
   libudev-dev \
   libx264-dev \
   libxml2-dev \
@@ -105,9 +122,12 @@ RUN sudo vca-install-package \
   python-pystache \
   python-requests \
   python-tz \
+  qemu \
   realpath \
+  stress \
+  uuid-runtime \
   unrar-free \
-  valgrind \
+  vde2 \
   xzdec \
   yasm \
   zlib1g-dev
