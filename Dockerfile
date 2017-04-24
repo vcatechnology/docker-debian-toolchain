@@ -95,6 +95,7 @@ RUN sudo vca-install-package \
   libsoup2.4-dev \
   libsqlite3-dev \
   libssl-dev \
+  libsubunit-dev \
   libsystemd-dev \
   libtasn1-6-dev \
   libtinyxml-dev \
@@ -125,6 +126,7 @@ RUN sudo vca-install-package \
   qemu \
   realpath \
   stress \
+  subunit \
   uuid-runtime \
   unrar-free \
   vde2 \
