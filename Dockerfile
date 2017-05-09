@@ -48,6 +48,7 @@ RUN sudo vca-install-package \
   intltool \
   libaa-bin \
   libaa1-dev \
+  libasm-dev \
   libasound2-dev \
   libattr1-dev \
   libboost-all-dev \
@@ -57,7 +58,9 @@ RUN sudo vca-install-package \
   libcppunit-dev \
   libcurl4-gnutls-dev \
   libdbus-1-dev \
+  libdw-dev \
   libeigen3-dev \
+  libelf-dev \
   libffi-dev \
   libgcrypt11-dev \
   libgmp-dev \
