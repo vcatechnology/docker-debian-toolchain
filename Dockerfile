@@ -110,7 +110,7 @@ RUN sudo vca-install-package \
   libpam0g-dev \
   libpciaccess-dev \
   libpcre3-dev \
-  libpng-dev \
+  libpng12-dev \
   libpolkit-agent-1-dev \
   libpolkit-gobject-1-dev \
   libpopt-dev \
