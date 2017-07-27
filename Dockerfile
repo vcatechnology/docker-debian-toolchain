@@ -115,6 +115,7 @@ RUN sudo vca-install-package \
   nasm \
   ncurses-term \
   nettle-dev \
+  nodejs \
   nodejs-legacy \
   npm \
   p7zip-full \
