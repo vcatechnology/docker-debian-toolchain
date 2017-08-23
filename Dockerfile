@@ -46,6 +46,7 @@ RUN sudo vca-install-package \
   gstreamer1.0-plugins-ugly \
   gstreamer1.0-tools \
   intltool \
+  iptables \
   libaa-bin \
   libaa1-dev \
   libasm-dev \
