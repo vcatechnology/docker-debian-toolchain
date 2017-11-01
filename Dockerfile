@@ -24,16 +24,25 @@ RUN sudo vca-install-package \
   bc \
   bison \
   check \
+  clang-format \
+  clang-tidy \
   cmake \
+  comerr-dev \
   cppcheck \
   debhelper \
+  dfu-util \
   dialog \
+  dnsmasq \
+  dosfstools \
   doxygen \
+  e2fslibs-dev \
   eject \
   flex \
   g++ \
   gawk \
   gcc \
+  gdb \
+  gdbserver \
   gdisk \
   gnu-efi \
   gperf \
@@ -45,13 +54,16 @@ RUN sudo vca-install-package \
   gstreamer1.0-plugins-good \
   gstreamer1.0-plugins-ugly \
   gstreamer1.0-tools \
+  gstreamer1.0-vaapi \
   intltool \
   iptables \
   libaa-bin \
   libaa1-dev \
   libasm-dev \
   libasound2-dev \
+  libasprintf-dev \
   libattr1-dev \
+  libavdevice-dev \
   libboost-all-dev \
   libbz2-dev \
   libcap-dev \
@@ -64,6 +76,7 @@ RUN sudo vca-install-package \
   libelf-dev \
   libffi-dev \
   libgcrypt11-dev \
+  libgettextpo-dev \
   libgmp-dev \
   libgnutls28-dev \
   libgpg-error-dev \
@@ -71,12 +84,16 @@ RUN sudo vca-install-package \
   libgstreamer-plugins-bad1.0-dev \
   libgstreamer-plugins-base1.0-dev \
   libgstreamer1.0-dev \
+  libgstrtspserver-1.0-dev \
   libgudev-1.0-dev \
   libicu-dev \
   libidn11-dev \
   libisl-dev \
   libjansson-dev \
+  libkrad-dev \
+  libkrb5-dev \
   libmount-dev \
+  libmozjs185-dev \
   libmpc-dev \
   libmpfr-dev \
   libncurses5-dev \
@@ -84,6 +101,7 @@ RUN sudo vca-install-package \
   libndp-dev \
   libnl-3-dev \
   libnl-cli-3-dev \
+  libnm-dev \
   libnspr4-dev \
   libntlm0-dev \
   libopencv-dev \
@@ -92,9 +110,13 @@ RUN sudo vca-install-package \
   libpciaccess-dev \
   libpcre3-dev \
   libpng-dev \
+  libpolkit-agent-1-dev \
+  libpolkit-gobject-1-dev \
   libpopt-dev \
   libprotobuf-dev \
+  libprotoc-dev \
   libqt4-dev \
+  librapidxml-dev \
   libsigc++-2.0-dev \
   libsoup2.4-dev \
   libsqlite3-dev \
@@ -106,6 +128,10 @@ RUN sudo vca-install-package \
   libtool-bin \
   libudev-dev \
   libusb-1.0-0-dev \
+  libuv1-dev \
+  libva-dev \
+  libverto-dev \
+  libwebp-dev \
   libx264-dev \
   libxml2-dev \
   lintian \
@@ -116,6 +142,7 @@ RUN sudo vca-install-package \
   nasm \
   ncurses-term \
   nettle-dev \
+  network-manager \
   nodejs \
   npm \
   p7zip-full \
@@ -128,8 +155,11 @@ RUN sudo vca-install-package \
   python-tz \
   qemu \
   realpath \
+  ss-dev \
   stress \
   subunit \
+  systemd \
+  systemd-sysv \
   unrar-free \
   uuid-runtime \
   vde2 \
