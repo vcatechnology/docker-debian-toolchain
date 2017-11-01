@@ -31,12 +31,12 @@ RUN sudo vca-install-package \
   doxygen \
   eject \
   flex \
-  gawk \
-  gdisk \
   g++ \
+  gawk \
   gcc \
-  gperf \
+  gdisk \
   gnu-efi \
+  gperf \
   graphviz \
   gsoap \
   gstreamer1.0-alsa \
@@ -67,10 +67,10 @@ RUN sudo vca-install-package \
   libgmp-dev \
   libgnutls28-dev \
   libgpg-error-dev \
+  libgsoap-dev \
   libgstreamer-plugins-bad1.0-dev \
   libgstreamer-plugins-base1.0-dev \
   libgstreamer1.0-dev \
-  libgsoap-dev \
   libgudev-1.0-dev \
   libicu-dev \
   libidn11-dev \
@@ -104,8 +104,8 @@ RUN sudo vca-install-package \
   libtasn1-6-dev \
   libtinyxml-dev \
   libtool-bin \
-  libusb-1.0-0-dev \
   libudev-dev \
+  libusb-1.0-0-dev \
   libx264-dev \
   libxml2-dev \
   lintian \
@@ -130,8 +130,8 @@ RUN sudo vca-install-package \
   realpath \
   stress \
   subunit \
-  uuid-runtime \
   unrar-free \
+  uuid-runtime \
   vde2 \
   xzdec \
   yasm \
