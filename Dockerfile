@@ -124,7 +124,6 @@ RUN sudo vca-install-package \
   libtool-bin \
   libudev-dev \
   libusb-1.0-0-dev \
-  libuv1-dev \
   libva-dev \
   libverto-dev \
   libwebp-dev \
