@@ -113,7 +113,6 @@ RUN sudo vca-install-package \
   libprotobuf-dev \
   libprotoc-dev \
   libqt4-dev \
-  librapidxml-dev \
   libsigc++-2.0-dev \
   libsoup2.4-dev \
   libsqlite3-dev \
