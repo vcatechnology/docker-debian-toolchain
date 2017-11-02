@@ -24,8 +24,6 @@ RUN sudo vca-install-package \
   bc \
   bison \
   check \
-  clang-format \
-  clang-tidy \
   cmake \
   comerr-dev \
   cppcheck \
